@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "rootDir": "tsFiles",
+    "outDir": "jsFiles",
+    "strict": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["tsFiles/**/*.ts"],
+  "exclude": ["jsFiles"]
+}

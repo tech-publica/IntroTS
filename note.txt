@@ -1,0 +1,13 @@
+Install TypeScript:
+  npm install --global typescript
+
+Compile once:
+  tsc
+
+Compile whenever a source file changes:
+  tsc --watch
+
+Check the installed version:
+  tsc --version
+
+See README.md for the complete setup instructions.
