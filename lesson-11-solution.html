@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript — Lesson 11 Solution</title>
+  <link rel="stylesheet" href="lesson-11.css">
+</head>
+<body>
+  <header>
+    <h1>Lesson 11 solution: Task list</h1>
+    <p>
+      <a href="lesson-11-exercise.html">Return to the exercise</a>
+    </p>
+  </header>
+
+  <main>
+    <form id="task-form">
+      <label>
+        New task
+        <input id="task-title" required>
+      </label>
+      <button type="submit">Add task</button>
+    </form>
+
+    <p>Total tasks: <output id="task-count">0</output></p>
+    <p id="no-tasks">No tasks yet.</p>
+    <ul id="task-list"></ul>
+  </main>
+
+  <script
+    type="module"
+    src="jsFiles/solutions/lesson-11-solutions.js"
+  ></script>
+</body>
+</html>

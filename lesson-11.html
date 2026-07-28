@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript — Lesson 11</title>
+  <link rel="stylesheet" href="lesson-11.css">
+</head>
+<body>
+  <header>
+    <h1>TypeScript — Lesson 11</h1>
+    <p>DOM manipulation and browser events</p>
+    <p>
+      <a href="lesson-10.html">Return to Lesson 10</a> |
+      <a href="lesson-11-exercise.html">Open the exercise</a>
+    </p>
+  </header>
+
+  <main>
+    <section aria-labelledby="add-product-heading">
+      <h2 id="add-product-heading">Add a product</h2>
+
+      <form id="product-form">
+        <label>
+          Product name
+          <input id="product-name" name="name" required>
+        </label>
+
+        <label>
+          Price
+          <input
+            id="product-price"
+            name="price"
+            type="number"
+            min="0.01"
+            step="0.01"
+            required
+          >
+        </label>
+
+        <label>
+          Category
+          <select id="product-category" name="category" required>
+            <option value="accessories">Accessories</option>
+            <option value="computers">Computers</option>
+            <option value="displays">Displays</option>
+          </select>
+        </label>
+
+        <button type="submit">Add product</button>
+        <p id="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section aria-labelledby="catalog-heading">
+      <h2 id="catalog-heading">Product catalogue</h2>
+
+      <div class="catalog-controls">
+        <label>
+          Filter products
+          <input id="product-filter" type="search">
+        </label>
+        <button id="clear-filter" type="button">Clear filter</button>
+      </div>
+
+      <p>
+        Visible products:
+        <output id="product-count">0</output>
+      </p>
+      <p id="empty-message" hidden>No products match the filter.</p>
+      <ul id="product-list"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="jsFiles/lesson-11/index.js"></script>
+</body>
+</html>

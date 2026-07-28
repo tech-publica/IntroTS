@@ -52,6 +52,15 @@ browser developer tools to see console output and any errors.
 ├── lesson-02.html   # Opens Lesson 2 in the browser
 ├── lesson-03.html   # Opens Lesson 3 in the browser
 ├── lesson-04.html   # Opens Lesson 4 in the browser
+├── lesson-05.html   # Opens Lesson 5 in the browser
+├── lesson-06.html   # Opens Lesson 6 in the browser
+├── lesson-07.html   # Opens Lesson 7 in the browser
+├── lesson-08.html   # Opens Lesson 8 in the browser
+├── lesson-09.html   # Opens Lesson 9 in the browser
+├── lesson-10.html   # Opens Lesson 10 in the browser
+├── lesson-11.html   # Opens the Lesson 11 demonstration
+├── lesson-11-exercise.html
+├── lesson-11-solution.html
 ├── lessons/         # Student lesson manuals
 ├── tsconfig.json    # TypeScript compiler configuration
 ├── tsFiles/         # Examples, exercises, and solutions
@@ -76,6 +85,13 @@ types should be before changing the code.
 2. [Functions](lessons/02-functions.md)
 3. [Object types](lessons/03-object-types.md)
 4. [Interfaces and classes](lessons/04-interfaces-and-classes.md)
+5. [Arrays and array methods](lessons/05-arrays.md)
+6. [Unions and narrowing](lessons/06-unions-and-narrowing.md)
+7. [Generics](lessons/07-generics.md)
+8. [Modules and project organization](lessons/08-modules.md)
+9. [Utility types and advanced object typing](lessons/09-utility-types.md)
+10. [Asynchronous TypeScript and HTTP requests](lessons/10-async-and-fetch.md)
+11. [DOM manipulation and browser events](lessons/11-dom-manipulation.md)
 
 Lesson 1 covers `const`, `let`, `string`, `number`, `boolean`, type inference,
 explicit annotations, and basic compiler errors.
@@ -107,3 +123,55 @@ access modifiers, static members, getters, setters, and private fields.
 1. `tsFiles/lesson-04.ts`
 2. `tsFiles/exercises/lesson-04-exercises.ts`
 3. `tsFiles/solutions/lesson-04-solutions.ts`
+
+Lesson 5 covers typed arrays, iteration, arrow-function callbacks, mutation,
+searching, testing, transforming, filtering, reducing, sorting, and read-only
+array parameters.
+
+1. `tsFiles/lesson-05.ts`
+2. `tsFiles/exercises/lesson-05-exercises.ts`
+3. `tsFiles/solutions/lesson-05-solutions.ts`
+
+Lesson 6 covers unions, literal types, narrowing, discriminated unions,
+exhaustive checks, custom type guards, intersections, `unknown`, and assertions.
+
+1. `tsFiles/lesson-06.ts`
+2. `tsFiles/exercises/lesson-06-exercises.ts`
+3. `tsFiles/solutions/lesson-06-solutions.ts`
+
+Lesson 7 covers generic functions, interfaces and classes, type inference,
+constraints, `keyof`, indexed access types, and generic defaults.
+
+1. `tsFiles/lesson-07.ts`
+2. `tsFiles/exercises/lesson-07-exercises.ts`
+3. `tsFiles/solutions/lesson-07-solutions.ts`
+
+Lesson 8 covers module scope, named and default exports, type-only imports,
+aliases, barrel files, direct browser modules, and multi-file organization.
+
+1. `tsFiles/lesson-08/index.ts`
+2. `tsFiles/exercises/lesson-08/index.ts`
+3. `tsFiles/solutions/lesson-08/index.ts`
+
+Lesson 9 covers `Partial`, `Required`, `Readonly`, `Pick`, `Omit`, `Record`,
+`keyof`, indexed access, `typeof`, mapped types, `as const`, and `satisfies`.
+
+1. `tsFiles/lesson-09.ts`
+2. `tsFiles/exercises/lesson-09-exercises.ts`
+3. `tsFiles/solutions/lesson-09-solutions.ts`
+
+Lesson 10 covers promises, `async`/`await`, safe error handling, SWAPI GET
+requests, JSONPlaceholder POST requests, runtime response validation,
+`Promise.all`, request-state unions, and cancellation.
+
+1. `tsFiles/lesson-10/index.ts`
+2. `tsFiles/exercises/lesson-10-exercises.ts`
+3. `tsFiles/solutions/lesson-10-solutions.ts`
+
+Lesson 11 covers safe element selection, element creation and rendering,
+forms, typed events, event targets, delegation, data attributes, DOM security,
+accessibility, and connecting application state to the page.
+
+1. `tsFiles/lesson-11/index.ts`
+2. `tsFiles/exercises/lesson-11-exercises.ts`
+3. `tsFiles/solutions/lesson-11-solutions.ts`
